@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './SideMenu.css';
 
-const logo = require('../logo.svg');
+const logo = require('./logo.svg');
 
 class SideMenu extends React.Component<{}, {}> {
   render() {
