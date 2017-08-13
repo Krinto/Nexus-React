@@ -1,12 +1,10 @@
 var config = {
     development: {
-        //url to be used in link generation
-        url: 'http://localhost:3000',
         //mongodb connection settings
         database: {
             host:       '192.168.1.31',
             port:       '27017',
-            db:         'nutrap',
+            db:         'nexus',
             user:       'apiuser',
             password:   'password1234'
         },
@@ -14,12 +12,9 @@ var config = {
         server: {
             host: '127.0.0.1',
             port: '3000'
-        },
-        secret: 'thisisasecret'
+        }
     },
     test: {
-        //url to be used in link generation
-        url: 'http://localhost:3000',
         //mongodb connection settings
         database: {
             host:       process.env.DB_HOST,
@@ -32,12 +27,9 @@ var config = {
         server: {
             host: '127.0.0.1',
             port: '3000'
-        },
-        secret: 'thisisasecret'
+        }
     },
     production: {
-        //url to be used in link generation
-        url: 'http://example.com',
         //mongodb connection settings
         database: {
             host:       process.env.DB_HOST,
@@ -50,8 +42,7 @@ var config = {
         server: {
             host: process.env.WEB_HOST,
             port: process.env.PORT
-        },
-        secret: process.env.JWT_SECRET
+        }
     }
 };
 
