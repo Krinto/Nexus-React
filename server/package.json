@@ -1,0 +1,27 @@
+{
+  "name": "nexus-api",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "cross-env NODE_ENV=test mocha --reporter spec"
+  },
+  "author": "Kieran Matherson",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "cors": "2.8.4",
+    "express": "4.15.4",
+    "lodash": "4.17.4",
+    "mongoose": "4.7.9",
+    "morgan": "1.8.2",
+    "q": "1.5.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-http": "3.0.0",
+    "cross-env": "5.0.5",
+    "mocha": "3.5.0",
+    "mockgoose": "6.0.8"
+  }
+}
