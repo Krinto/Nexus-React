@@ -1,12 +1,12 @@
 import * as React from 'react';
 import './Content.css';
 
-export interface Props {
+export interface IProps {
   url: string;
 }
 
-class Content extends React.Component<Props, object> {
-  render() {
+class Content extends React.Component<IProps, object> {
+  public render() {
     return (
       <iframe src={this.props.url} className="Content" />
     );

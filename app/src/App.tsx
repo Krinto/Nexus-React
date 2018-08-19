@@ -1,10 +1,10 @@
 import * as React from 'react';
 import './App.css';
-import SideMenu from './side-menu/SideMenu';
 import Content from './content/Content';
+import SideMenu from './side-menu/SideMenu';
 
 class App extends React.Component<{}, {}> {
-  render() {
+  public render() {
     return (
       <div className="App">
         <SideMenu />

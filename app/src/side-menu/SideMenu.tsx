@@ -1,10 +1,10 @@
 import * as React from 'react';
 import './SideMenu.css';
 
-const logo = require('./logo.svg');
+import logo from './logo.svg';
 
 class SideMenu extends React.Component<{}, {}> {
-  render() {
+  public render() {
     return (
       <div className="SideMenu">
         <div className="logo">
